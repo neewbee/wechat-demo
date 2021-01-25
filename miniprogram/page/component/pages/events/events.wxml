@@ -1,0 +1,12 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="page">
+  <template is="head" data="{{title: 'events'}}"/>
+
+  <view class="section" bindtouchstart="ontouchstart" bindtouchend="ontouchend" >
+
+  </view>
+
+  <template is="foot" />
+</view>

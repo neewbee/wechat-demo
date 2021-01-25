@@ -1,0 +1,15 @@
+<view  class="order">
+    <map
+      class='map'
+      longitude="{{longitude}}"
+      latitude="{{latitude}}"
+      scale="{{scale}}"
+      include-points="{{includePoints}}"
+    />
+    <view >
+      <cover-view class="cover-view" onTap="onCoverViewTap"></cover-view>
+      <!-- <view class="view" onTap="onViewTap">
+        <view class='inner-view'> </view>
+      </view> -->
+    </view>
+</view>

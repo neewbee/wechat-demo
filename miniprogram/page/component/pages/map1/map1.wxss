@@ -1,0 +1,83 @@
+.page {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+.page-section-title {
+  margin-bottom: 15px;
+}
+
+.navigator {
+  color: var(--weui-LINK);
+  display: inline-block;
+}
+
+.map-mask {
+  /* height: 80vh;
+  position: fixed; */
+
+  /* width: 100%; 
+  height: 90vh;
+  position: fixed;
+  top: 0;
+  left: 0; */
+}
+
+.map {
+  /* width: 100%; 
+  height: 90vh;
+  position: fixed;
+  top: 0;
+  left: 0; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+  overflow-y: auto;
+  /* pointer-events: none; */
+}
+
+.placeholder {
+  height: 80vh;
+  width: 0;
+  pointer-events: none;
+}
+
+.card {
+  /* margin-top: 80vh; */
+  height: 20vh;
+  width: 100vw;
+  background-color: rgba(231,12,12,0.75);
+  z-index: 1000;
+  position: absolute;
+  top: 80vh;
+  left: 0;
+}
+
+.items {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(231,130,12,0.75);
+  position: absolute;
+  top: 100vh;
+  left: 0;
+}
+
+.cover-view-mask {
+  position: absolute;
+  top: 80vh;
+  z-index: 1000;
+  height: 120vh;
+  width: 100vw;
+}
